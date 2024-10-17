@@ -6,7 +6,7 @@ import { Infos } from './infos'
 
 export function Profile() {
   return (
-    <div className="flex w-full min-w-72 flex-col gap-4 md:w-fit">
+    <div className="flex w-full min-w-64 flex-col gap-4 md:w-fit">
       <Avatar />
 
       <ButtonHeader className="order-2 py-1.5 text-sm hover:bg-git-light/0 md:hidden">
