@@ -29,7 +29,9 @@ export function Header() {
 
           <GithubSvg className="size-8" />
 
-          <span className="font-semibold text-white">User</span>
+          <span className="font-semibold text-sm text-white/90">
+            LuisFelipeSalvarani
+          </span>
         </div>
 
         <div className="flex items-center gap-2">
@@ -59,7 +61,11 @@ export function Header() {
             <Inbox className="size-4" />
           </ButtonHeader>
 
-          <div className="size-8 rounded-full bg-white" />
+          <img
+            src="https://github.com/LuisFelipeSalvarani.png"
+            alt="Avatar"
+            className="aspect-square size-10 rounded-full border border-git-gray/70"
+          />
         </div>
       </div>
       <div className="flex flex-1 items-baseline justify-between py-2">
