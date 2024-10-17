@@ -1,6 +1,7 @@
 import { Footer } from './components/Footer/footer'
 import { Header } from './components/Header/header'
 import { Profile } from './components/Profile/profile'
+import { Readme } from './components/Readme/readme'
 
 export function App() {
   return (
@@ -8,10 +9,12 @@ export function App() {
       <Header />
 
       <main>
-        <div className="mx-auto flex h-full flex-col p-8 md:max-w-screen-xl md:flex-row">
+        <div className="mx-auto flex h-full flex-col gap-4 p-8 md:max-w-screen-xl md:flex-row">
           <Profile />
 
-          <div className="h-screen" />
+          <div>
+            <Readme />
+          </div>
         </div>
       </main>
 
