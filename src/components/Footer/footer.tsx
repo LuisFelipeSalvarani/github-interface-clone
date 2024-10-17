@@ -3,7 +3,7 @@ import { FooterLink } from './footer-link'
 
 export function Footer() {
   return (
-    <footer className="mx-auto flex min-w-80 max-w-screen-lg flex-col-reverse items-center gap-4 pt-6 pb-8 lg:flex-row">
+    <footer className="mx-auto flex min-w-80 max-w-screen-lg flex-col-reverse items-center justify-center gap-4 pt-6 pb-8 lg:flex-row">
       <div className="flex items-center gap-2 font-light text-git-light/60 text-xs tracking-wide">
         <GithubSvg className="size-6 cursor-pointer opacity-70 hover:opacity-20" />
         &copy; 2024 GitHub, Inc.
